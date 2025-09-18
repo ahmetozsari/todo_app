@@ -1,5 +1,5 @@
-from database import SessionLocal, Base, engine
-from models import User, Task
+from todo_app.app.database import SessionLocal, Base, engine
+from todo_app.app.models import User, Task
 from utils import format_task, parse_date
 from rich import print        # CLI çıktısını renkli göstermek için
 from getpass import getpass   # Şifre girişini gizlemek için
